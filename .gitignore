@@ -1,0 +1,50 @@
+# 依赖的文件夹
+*.pro.user
+*.pro.user.*
+*.pro.user.*.bak
+*.qmake.stash
+*.qmake.cache
+
+# Qt 编译输出
+/debug/
+.release/
+.release_arm/
+.debug/
+.moc/
+.ui/
+.qrc/
+build/
+
+# 编译生成的文件
+*.o
+*.obj
+*.lo
+*.a
+*.la
+*.dll
+*.so
+*.dylib
+*.exe
+*.app
+
+# CMake 构建目录
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.cmake
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器的临时文件
+*~
+*.swp
+.idea/
+.vscode/
+
+# 编译工具生成的临时文件
+*.dep
+*.d
+
